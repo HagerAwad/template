@@ -1,0 +1,386 @@
+body{
+margin: 0;
+padding: 0;
+}
+header{
+    height: 100%;
+}
+.first{
+    background-image: url(../image/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;  
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.nav{
+    display: flex;
+
+}
+.nav .ul{
+    display: flex;
+    margin-left: 25px;
+    list-style: none;
+margin-top: 30px;
+}
+.img{
+    margin-bottom: 15px;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.collapse{
+width: 8%;
+margin-top:15px ;
+}
+.login-img{
+    width: 100%;
+}
+.login-text{
+    position: relative;
+    top: -45px;
+    left: 28px;
+}
+.login-text .span-1{
+    font-size: 16px;
+}
+.home{
+position: absolute;
+width: 100%;
+height: 70%;
+margin-top: 250px;
+display: flex;
+}
+.text-1{
+    font-size: 18px;
+    width: 50%;
+    height: 80%;
+    text-align: center;
+
+}
+.text-1 .text1-1{
+    color: rgb(86, 86, 86);
+position: relative;
+top: 90px;
+left:50px;
+}
+.text-1 .span{
+    color: #9f097f;
+}
+p{
+    font-size: 18px;
+}
+.text-2{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: -20px;
+}
+.text-2 .image-1{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    bottom:80px;
+    left: 20px;
+}
+.text-2 .image-1 img{
+    width: 100%;
+}
+.text-2 .image-2{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    bottom: 550px;
+    left: 165px;
+}
+.text-2 .image-2 img{
+    width: 70%;
+    height: 90%;
+}
+.text-2 .image-3{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    bottom: 700px;
+    right: 50px;
+}
+.text-2 .image-3 img{
+    width:100%;
+    height: 70%;
+}
+.image4-4 {
+    width: 90%;
+    height: 30%;
+    position: absolute;
+bottom: -90px;
+left: 40px;
+}
+.image4-4 .image-4{
+    width: 100%;
+    height: 100%;
+}
+.image4-4 .image-4 img{
+    width: 80%;
+    height: 100%;
+}
+
+.second {
+    width: 100%;
+    margin-top: 100px;
+}
+.second  img{
+    width: 70%;
+position: relative;
+left: 225px;
+top: 20px;
+}
+.second .sup {
+    display: flex;
+}
+
+.second .sup .sup1{
+    width: 20%;
+    height: 50%;
+    text-align: center;
+position: relative;
+bottom: 460px;
+left: 90px;
+
+}
+
+.second .sup .sup1 img{
+
+position: relative;
+left:0px;
+margin-bottom: 15px;}
+
+.second .sup .sup2{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    bottom: 280px;
+    left: 280px;
+    text-align: center;
+}
+.second .sup .sup2 img{
+
+    position: relative;
+    left:0px;
+    margin-bottom: 15px;
+}
+
+.suport{
+    width: 100%;
+    background-color: #9f097f;
+    display: flex;
+    justify-content: space-between;
+}
+.second .sup .sup3{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    bottom: 15px;
+    left: 360px;
+    text-align: center;
+}
+.second .sup .sup3 img{
+
+    position: relative;
+    left:0px;
+    margin-bottom: 15px;}
+
+    .second .sup .sup4{
+        width: 30%;
+        height: 30%;
+        position: relative;
+        text-align: center;
+        right: 850px;
+    }
+    .second .sup .sup4 img{
+    position: relative;
+    left:0px;
+    }
+    .second .sup .sup4 .sup4-4{
+        position: relative;
+        width: 50%;
+        bottom: 165px;
+        left: 130px;
+        text-align: left;
+        font-size: 24px;
+        color: white;
+    }
+    .second .sup .sup4 .sup4-4 span{
+        font-size: 12px;
+        position: relative;
+        top: 15px;
+    }
+    .third{
+        display: flex;
+        width: 100%;
+        height: 20%;
+        margin-top: 100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .third .one{
+        margin-right: 35px;
+        width: 15%;
+        height: 50%;
+        text-align: center;
+    }
+    .third .one img{
+        width: 100%;
+    }
+    .third .span1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+}
+    .third .two{
+        width: 25%;
+        height: 30%;
+        text-align: center;
+    }
+    .third .two img{
+        width: 100%;
+    }
+    .two .two-1{
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+    .two .two-1 p {
+        width: 80%;
+        margin: auto;
+        font-size: 23px;
+    }
+    .third .span2{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+}
+    .third .three{       
+
+        margin-left: 35px;
+        width: 15%;
+        height: 50%;
+        text-align: center;
+    }
+    .third .three img{
+        width: 100%;
+    }
+.footer{
+    height: 80vh;
+    width: 100%;
+}
+.footer .footer1{
+background-image: url(../image/footer1.png);
+background-position-x: center;
+background-size: 115%;
+height: 100%;
+display: flex;
+justify-content: space-between;
+}
+.footer1 .footer-img{
+    width: 40%;
+    height: 80%;
+position: relative;
+right: 200px;
+top: 104px;
+}
+.footer1 .footer-img img{
+    width: 100%;
+    height: 100%;
+}
+.footer .footer-tex{
+    width: 45%;
+    height: 80%;
+    align-items:center ;
+    position: relative;
+    top: 80px;
+}
+.footer-tex .icon-s{
+    height: 15%;
+    display: flex;
+    position: relative;
+    top: 260px;
+    width: 50%;
+    left: 80px;
+}
+.appel{
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 183, 255);
+    font-size: 12px;
+}
+.appel .spani{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 28px;
+}
+.appel .prg{
+font-size: 15px;
+}
+.play{
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(0, 183, 255);
+    font-size: 12px;
+}
+.play .spani{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+}
+.play .prg{
+font-size: 15px;
+}
+
+.secicon{
+    height: 5%;
+    width: 50%;
+    padding: 15px;
+    font-size: 28px;
+    color: white;
+    position: relative;
+    top: 260px;
+    left: 70px;
+}
+.secicon i {
+    padding: 10px;
+}
+.Text{
+    width: 80%;
+    height: 10%;
+    position: relative;
+    top: 280px;
+    left: 70px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.Text a{
+    color: white;
+padding: 10px;
+}
